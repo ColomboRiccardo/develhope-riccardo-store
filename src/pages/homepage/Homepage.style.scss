@@ -1,0 +1,12 @@
+.CategoriesCarousel {
+	display: flex;
+	justify-content: space-between;
+}
+
+.ProductGrid {
+	// display: grid;
+	// grid-template-columns: 1fr 1fr;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
