@@ -1,0 +1,24 @@
+.ProductDisplay {
+	// display: flex;
+	// flex-wrap: wrap;
+	// justify-content: space-evenly;
+
+	// .ProductComponent {
+	// 	width: 50%;
+	// }
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	.ProductComponent {
+		place-self: center;
+	}
+}
+
+.CategoriesDisplay {
+	display: flex;
+	justify-content: space-between;
+	.CategoriesComponent {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+}
