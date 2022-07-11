@@ -1,6 +1,6 @@
 import styled, { useTheme } from 'styled-components';
 
-import ButtonComponent from '../ButtonComponent/ButtonComponent';
+import ButtonComponent from './ButtonComponent';
 
 const HeaderComponentStyled = styled.header`
 	display: grid;

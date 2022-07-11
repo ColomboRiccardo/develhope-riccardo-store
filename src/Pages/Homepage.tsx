@@ -1,6 +1,6 @@
-import CategoriesComponent from '../../Components/CategoriesComponent/CategoriesComponent';
-import HeaderComponent from '../../Components/HeaderComponent/HeaderComponent';
-import ProductComponent from '../../Components/ProductComponent/ProductComponent';
+import CategoriesComponent from '../Components/CategoriesComponent';
+import HeaderComponent from '../Components/HeaderComponent';
+import ProductComponent from '../Components/ProductComponent';
 import './HomepageStyle.scss';
 
 type Props = {};

@@ -1,7 +1,7 @@
 import React from 'react';
-import Homepage from './Pages/Homepage/Homepage';
+import Homepage from './Pages/Homepage';
 import { Routes, Route } from 'react-router-dom';
-import CategoriesPage from './Pages/CategoriesPage/CategoriesPage';
+import CategoriesPage from './Pages/CategoriesPage';
 import { ThemeProvider } from 'styled-components';
 
 const theme = {

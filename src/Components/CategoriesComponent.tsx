@@ -1,5 +1,5 @@
 import React from 'react';
-import NavigatorComponent from '../NavigatorComponent/NavigatorComponent';
+import NavigatorComponent from './NavigatorComponent';
 
 const handleCategories = (value: string) => {
 	switch (value) {

@@ -1,11 +1,11 @@
 import React from 'react';
-import { ReactComponent as CartIcon } from '../../assets/bx-cart.svg';
-import { ReactComponent as HeartIcon } from '../../assets/bxs-heart.svg';
-import { ReactComponent as HomeIcon } from '../../assets/bxs-home.svg';
-import { ReactComponent as ShoppingIcon } from '../../assets/bxs-shopping-bag.svg';
-import { ReactComponent as Usercon } from '../../assets/bxs-user.svg';
-import { ReactComponent as WalletIcon } from '../../assets/bxs-wallet.svg';
-import { ReactComponent as SliderIcon } from '../../assets/sliders.svg';
+import { ReactComponent as CartIcon } from '../assets/bx-cart.svg';
+import { ReactComponent as HeartIcon } from '../assets/bxs-heart.svg';
+import { ReactComponent as HomeIcon } from '../assets/bxs-home.svg';
+import { ReactComponent as ShoppingIcon } from '../assets/bxs-shopping-bag.svg';
+import { ReactComponent as Usercon } from '../assets/bxs-user.svg';
+import { ReactComponent as WalletIcon } from '../assets/bxs-wallet.svg';
+import { ReactComponent as SliderIcon } from '../assets/sliders.svg';
 
 type Props = {
 	value: 'cart' | 'heart' | 'slider';
